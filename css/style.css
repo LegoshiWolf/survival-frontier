@@ -1,0 +1,72 @@
+body {
+  background-color: #000; /* Set background color to black */
+  color: #fff; /* Set text color to white */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000; /* Set scrollbar track background to black */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff; /* Set scrollbar thumb background to white */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+.nav-details {
+  background-color: #000; /* Set navigation details background to black */
+  color: #fff; /* Set navigation details text color to white */
+  z-index: 31337 !important;
+}
+
+.section-area {
+  padding-top: 90px;
+  background-color: #000; /* Set section title background to black */
+}
+
+.section-title {
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #000; /* Set section title background to black */
+}
+
+.section-description {
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: #000; /* Set section description background to black */
+}
+
+.section-text {
+  display: flex; /* Use flexbox to center the list vertically */
+  flex-direction: column; /* Stack list items vertically */
+  align-items: center; /* Center-align items horizontally */
+  justify-content: center; /* Center-align items vertically */
+}
+
+.section-separator {
+  padding-top: 40px;
+}
+
+.section-end {
+  padding-bottom: 50px;
+}
+
+.text-muted {
+  color: #fff !important;
+}
+
+.link-light:hover {
+  color: green !important;
+}
